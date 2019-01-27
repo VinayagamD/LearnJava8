@@ -15,10 +15,18 @@ public class StreamsExample {
     public static void main(String[] args) {
         // student name nad their activities in the map
 
-       Map<String, List<String>> studentMap = StudentDataBase.getAllStudents().parallelStream()
+       /*Map<String, List<String>> studentMap = StudentDataBase.getAllStudents().parallelStream()
                .filter(studentPredicate)
                .filter(studentgpaPredicate)
-                .collect(Collectors.toMap(Student::getName,Student::getActivites));
-        System.out.println(studentMap);
+                .collect(Collectors.toMap(Student::getName,Student::getActivites));*/
+       Map<String, List<String>> studentMap = StudentDataBase.getAllStudents().stream()
+               .filter(studentPredicate) /*Stream<Student>*/
+               .filter(studentgpaPredicate) /*Stream<Student>*/
+                .collect(Collectors.toMap(Student::getName,Student::getActivites)); // <Map>
+//        System.out.println(studentMap);
+
+        /*StudentDataBase.getAllStudents().parallelStream()
+               .filter(studentPredicate)
+               .filter(studentgpaPredicate);*/
     }
 }
