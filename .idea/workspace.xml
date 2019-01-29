@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0582d361-b1ff-4889-be35-fa0441a2072f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/CollectionVsStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsFlatMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsMapExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/testjava8/com/vinaylearn/java8/streams/StreamsExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testjava8/com/vinaylearn/java8/streams/StreamsExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,39 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/methodreference/FunctionMethodReference.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/methodreference/ConsumerMethodReferenceExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/methodreference/RefactorMethodReferenceExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/constructorreference/ConstructorReference.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,8 +50,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="24" column="92" selection-start-line="24" selection-start-column="92" selection-end-line="24" selection-end-column="92" />
+            <state relative-caret-position="306">
+              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsMapExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,10 +72,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsFlatMapExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/stream/Stream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6392">
+              <caret line="422" column="14" selection-start-line="422" selection-start-column="14" selection-end-line="422" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/CollectionVsStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="459">
+              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,6 +145,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>package com\.vinaylearn\.java8\.funcationalinterface\;\n\nimport java\.util\.function\.Predicate\;\n\npublic class PredicateExample \{\n      static   Predicate\&lt;Integer\&gt; p \= \(i\) \-\&gt;\{return i\%2 \=\=0\;\}\;\n       static Predicate\&lt;Integer\&gt; p1 \= \(i\) \-\&gt;i\%2 \=\=0\;\n\n       static Predicate\&lt;Integer\&gt; p2 \= \(i\) \-\&gt; i\%5 \=\= 0\;\n\n       public static void predicateAnd\(\)\{\n           System\.out\.println\( \&quot;Predicate And result is \&quot; \+p1\.and\(p2\)\.test\(10\)\)\; \/\/predicate chaining\n           System\.out\.println\( \&quot;Predicate And result is \&quot; \+p1\.and\(p2\)\.test\(9\)\)\; \/\/predicate chaining\n       \}\n       \n public static void predicateAnd\(\)\{\n           System\.out\.println\( \&quot;Predicate And result is \&quot; \+p1\.and\(p2\)\.test\(10\)\)\; \/\/predicate chaining\n           System\.out\.println\( \&quot;Predicate And result is \&quot; \+p1\.and\(p2\)\.test\(9\)\)\; \/\/predicate chaining\n       \}\n\n    public static void main\(String\[\] args\) \{\n        System\.out\.println\(p\.test\(4\)\)\;\n\n        System\.out\.println\(p1\.test\(4\)\)\;\n\n        predicateAnd\(\)\;\n\n    \}\n\}\n</find>
+      <find>After 2nd Filter:</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,8 +182,10 @@
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/lamdas/LambdaVariable1.java" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/lamdas/LambdaVariable2.java" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/SteramsExample.java" />
-        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsExample.java" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/CollectionVsStream.java" />
+        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsExample.java" />
+        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsMapExample.java" />
+        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsFlatMapExample.java" />
       </list>
     </option>
   </component>
@@ -194,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -239,13 +246,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="predic&#9;PSI&#9;JAVA://java.util.function.Predicate&#10;bicon&#9;PSI&#9;JAVA://java.util.function.BiConsumer&#10;Consume&#9;PSI&#9;JAVA://java.util.function.Consumer&#10;Compar&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/util/Comparator.class&#10;runn&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/lang/Runnable.class&#10;Run&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Runnable.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548606149133" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548787516470" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -264,26 +272,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CollectionVsStream">
+  <component name="RunManager" selected="Application.StreamsFlatMapExample">
     <configuration name="CollectionVsStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.streams.CollectionVsStream" />
       <module name="testjava8" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.vinaylearn.java8.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConstructorReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.constructorreference.ConstructorReference" />
-      <module name="testjava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vinaylearn.java8.constructorreference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,19 +299,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RefactorMethodReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.methodreference.RefactorMethodReferenceExample" />
-      <module name="testjava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vinaylearn.java8.methodreference.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StreamsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.streams.StreamsExample" />
       <module name="testjava8" />
@@ -330,20 +312,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamsFlatMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.streams.StreamsFlatMapExample" />
+      <module name="testjava8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vinaylearn.java8.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamsMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.streams.StreamsMapExample" />
+      <module name="testjava8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vinaylearn.java8.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.RefactorMethodReferenceExample" />
-      <item itemvalue="Application.ConstructorReference" />
       <item itemvalue="Application.LambdaVariable2" />
       <item itemvalue="Application.StreamsExample" />
       <item itemvalue="Application.CollectionVsStream" />
+      <item itemvalue="Application.StreamsMapExample" />
+      <item itemvalue="Application.StreamsFlatMapExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CollectionVsStream" />
+        <item itemvalue="Application.StreamsFlatMapExample" />
+        <item itemvalue="Application.StreamsMapExample" />
         <item itemvalue="Application.StreamsExample" />
+        <item itemvalue="Application.CollectionVsStream" />
         <item itemvalue="Application.LambdaVariable2" />
-        <item itemvalue="Application.ConstructorReference" />
-        <item itemvalue="Application.RefactorMethodReferenceExample" />
       </list>
     </recent_temporary>
   </component>
@@ -371,18 +379,20 @@
       <workItem from="1548531632209" duration="1207000" />
       <workItem from="1548583590475" duration="3451000" />
       <workItem from="1548599590186" duration="117000" />
-      <workItem from="1548599946984" duration="1597000" />
+      <workItem from="1548599946984" duration="2361000" />
+      <workItem from="1548700978759" duration="1718000" />
+      <workItem from="1548786906469" duration="603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27029000" />
+    <option name="totallyTimeSpent" value="30114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20134228" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20671141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -656,6 +666,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6392">
+          <caret line="422" column="14" selection-start-line="422" selection-start-column="14" selection-end-line="422" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/CollectionVsStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/data/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -678,22 +715,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsExample.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsMapExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="24" column="92" selection-start-line="24" selection-start-column="92" selection-end-line="24" selection-end-column="92" />
+        <state relative-caret-position="380">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/CollectionVsStream.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsFlatMapExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="206">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
           </folding>
         </state>
       </provider>

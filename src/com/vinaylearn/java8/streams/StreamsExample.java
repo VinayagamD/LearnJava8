@@ -20,8 +20,11 @@ public class StreamsExample {
                .filter(studentgpaPredicate)
                 .collect(Collectors.toMap(Student::getName,Student::getActivites));*/
        Map<String, List<String>> studentMap = StudentDataBase.getAllStudents().stream()
+               .peek(System.out::println)
                .filter(studentPredicate) /*Stream<Student>*/
+               .peek(student -> System.out.println(" After 1st Filter: " +student))
                .filter(studentgpaPredicate) /*Stream<Student>*/
+               .peek(student -> System.out.println("After 2nd filter: " + student))
                 .collect(Collectors.toMap(Student::getName,Student::getActivites)); // <Map>
 //        System.out.println(studentMap);
 
