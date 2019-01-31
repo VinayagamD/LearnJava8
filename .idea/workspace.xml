@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0582d361-b1ff-4889-be35-fa0441a2072f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsComparatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsFilterExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testjava8/com/vinaylearn/java8/streams/StreamsFlatMapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testjava8/com/vinaylearn/java8/streams/StreamsFlatMapExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsFlatMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsFlatMapExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,18 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsMapExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsFlatMapExample.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,11 +65,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsComparatorExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+            <state relative-caret-position="561">
+              <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsFilterExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsMapExample.java" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsFlatMapExample.java" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsComparatorExample.java" />
+        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsFilterExample.java" />
       </list>
     </option>
   </component>
@@ -195,6 +194,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,15 +232,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="predic&#9;PSI&#9;JAVA://java.util.function.Predicate&#10;bicon&#9;PSI&#9;JAVA://java.util.function.BiConsumer&#10;Consume&#9;PSI&#9;JAVA://java.util.function.Consumer&#10;Compar&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/util/Comparator.class&#10;runn&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/lang/Runnable.class&#10;Run&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Runnable.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548875658895" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548877448502" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -258,20 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamsComparatorExample">
-    <configuration name="CollectionVsStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.streams.CollectionVsStream" />
-      <module name="testjava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vinaylearn.java8.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StreamsFilterExample">
     <configuration name="StreamsComparatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.streams.StreamsComparatorExample" />
       <module name="testjava8" />
@@ -287,6 +273,19 @@
     </configuration>
     <configuration name="StreamsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.streams.StreamsExample" />
+      <module name="testjava8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vinaylearn.java8.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamsFilterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.streams.StreamsFilterExample" />
       <module name="testjava8" />
       <extension name="coverage">
         <pattern>
@@ -326,18 +325,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.StreamsExample" />
-      <item itemvalue="Application.CollectionVsStream" />
       <item itemvalue="Application.StreamsMapExample" />
       <item itemvalue="Application.StreamsFlatMapExample" />
       <item itemvalue="Application.StreamsComparatorExample" />
+      <item itemvalue="Application.StreamsFilterExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamsFilterExample" />
         <item itemvalue="Application.StreamsComparatorExample" />
         <item itemvalue="Application.StreamsFlatMapExample" />
         <item itemvalue="Application.StreamsMapExample" />
         <item itemvalue="Application.StreamsExample" />
-        <item itemvalue="Application.CollectionVsStream" />
       </list>
     </recent_temporary>
   </component>
@@ -370,18 +369,19 @@
       <workItem from="1548786906469" duration="2267000" />
       <workItem from="1548794751136" duration="7000" />
       <workItem from="1548873374604" duration="65000" />
-      <workItem from="1548873519093" duration="928000" />
+      <workItem from="1548873519093" duration="2565000" />
+      <workItem from="1548957372265" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32778000" />
+    <option name="totallyTimeSpent" value="35014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2147651" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21744967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -391,7 +391,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329429" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329429" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -711,6 +711,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsComparatorExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/funcationalinterface/SupplierExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -738,10 +748,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsComparatorExample.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsFilterExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        <state relative-caret-position="238">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
