@@ -20,7 +20,7 @@ __Purpose of the repo is learn available methods and option in Java 8__
     - Collect
     - Filter
     
-__Java 8__ \
+__Java 8__
 
 ![Java8](https://cms-assets.tutsplus.com/uploads/users/369/posts/29661/preview_image/java-8-for-android-setting-up-lambda-expressions.png)
 
