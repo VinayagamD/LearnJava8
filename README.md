@@ -36,5 +36,5 @@ __Stream Api__\
 __Trained From Udemy__\
 ![Udemy](https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg)
 
-Udemy: https://www.udemy.com/
+Udemy: https://www.udemy.com/ \
 Tutorial Link:https://www.udemy.com/modern-java-learn-java-8-features-by-coding-it/learn/v4/overview 
