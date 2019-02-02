@@ -11,6 +11,8 @@ __Purpose of the repo is learn available methods and option in Java 8__
     - Predicate
     - BiPredicate
     - Function
+        - Min
+        - Max
     - BiFunction
     - Supplier
 * Stream API
@@ -19,6 +21,9 @@ __Purpose of the repo is learn available methods and option in Java 8__
     - Reduce
     - Collect
     - Filter
+    - Sort
+    - Min
+    - Max
     
 __Java 8__
 
