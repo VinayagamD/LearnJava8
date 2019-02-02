@@ -1,7 +1,7 @@
 # testjava8
 Learning Java8 Features And Implementation
 
-__Purpose of the project is learn available methods and option in Java 8__
+__Purpose of the repo is learn available methods and option in Java 8__
 
 * Imperative vs Declarative Style Example
 * About lambda
