@@ -22,7 +22,7 @@ __Purpose of the repo is learn available methods and option in Java 8__
     
 
 
-![Java8](https://cdn.vox-cdn.com/thumbor/E5DWi80rhjNBn1zQwrEjX0dnkLY=/0x0:640x427/920x613/filters:focal(0x0:640x427):format(webp)/cdn.vox-cdn.com/assets/1087137/java_logo_640.jpg)
+![Java8](https://cms-assets.tutsplus.com/uploads/users/369/posts/29661/preview_image/java-8-for-android-setting-up-lambda-expressions.png)
 
 ![Lambda](https://topjavatutorial.com/wp-content/uploads/2015/10/lambda-expression.png?8bc116&8bc116)
 
