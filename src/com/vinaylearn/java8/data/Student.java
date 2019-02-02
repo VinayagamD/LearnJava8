@@ -8,6 +8,8 @@ public class Student {
     private int gradeLevel;
     private double gpa;
     private String gender;
+    List<String> activites = new ArrayList<>();
+    private int noteBooks;
 
     public Student(String name, int gradeLevel, double gpa, String gender,List<String> activites) {
         this.name = name;
@@ -15,6 +17,15 @@ public class Student {
         this.gpa = gpa;
         this.gender = gender;
         this.activites = activites;
+    }
+
+    public Student(String name, int gradeLevel, double gpa, String gender, List<String> activites, int noteBooks) {
+        this.name = name;
+        this.gradeLevel = gradeLevel;
+        this.gpa = gpa;
+        this.gender = gender;
+        this.activites = activites;
+        this.noteBooks = noteBooks;
     }
 
     public Student() {
@@ -61,7 +72,6 @@ public class Student {
         System.out.println(activites);
     }
 
-    List<String> activites = new ArrayList<>();
 
     public List<String> getActivites() {
         return activites;
