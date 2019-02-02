@@ -72,6 +72,13 @@ public class Student {
         System.out.println(activites);
     }
 
+    public int getNoteBooks() {
+        return noteBooks;
+    }
+
+    public void setNoteBooks(int noteBooks) {
+        this.noteBooks = noteBooks;
+    }
 
     public List<String> getActivites() {
         return activites;
