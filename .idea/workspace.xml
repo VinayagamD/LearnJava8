@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0582d361-b1ff-4889-be35-fa0441a2072f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamMinMaxExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamLimitSkipExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,11 +111,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamMinMaxExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            <state relative-caret-position="189">
+              <caret line="71" column="64" selection-start-line="71" selection-start-column="64" selection-end-line="71" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="277">
+                <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamLimitSkipExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,12 +205,13 @@
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/data/StudentDataBase.java" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/data/Student.java" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamMapReduceExample.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamMinMaxExample.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamLimitSkipExample.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -242,7 +268,7 @@
     <property name="SearchEverywhereHistoryKey" value="predic&#9;PSI&#9;JAVA://java.util.function.Predicate&#10;bicon&#9;PSI&#9;JAVA://java.util.function.BiConsumer&#10;Consume&#9;PSI&#9;JAVA://java.util.function.Consumer&#10;Compar&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/util/Comparator.class&#10;runn&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/lang/Runnable.class&#10;Run&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Runnable.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549129974360" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549130963987" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -261,7 +287,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamMinMaxExample">
+  <component name="RunManager" selected="Application.StreamLimitSkipExample">
+    <configuration name="StreamLimitSkipExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.streams.StreamLimitSkipExample" />
+      <module name="testjava8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vinaylearn.java8.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamMapReduceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.streams.StreamMapReduceExample" />
       <module name="testjava8" />
@@ -301,19 +340,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsComparatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.streams.StreamsComparatorExample" />
-      <module name="testjava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vinaylearn.java8.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StreamsFilterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.streams.StreamsFilterExample" />
       <module name="testjava8" />
@@ -328,19 +354,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StreamsComparatorExample" />
       <item itemvalue="Application.StreamsFilterExample" />
       <item itemvalue="Application.StreamReduceExample" />
       <item itemvalue="Application.StreamMapReduceExample" />
       <item itemvalue="Application.StreamMinMaxExample" />
+      <item itemvalue="Application.StreamLimitSkipExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamLimitSkipExample" />
         <item itemvalue="Application.StreamMinMaxExample" />
         <item itemvalue="Application.StreamMapReduceExample" />
         <item itemvalue="Application.StreamReduceExample" />
         <item itemvalue="Application.StreamsFilterExample" />
-        <item itemvalue="Application.StreamsComparatorExample" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +403,7 @@
       <workItem from="1548957372265" duration="1819000" />
       <workItem from="1549041753886" duration="6000" />
       <workItem from="1549044886164" duration="1935000" />
-      <workItem from="1549079532262" duration="7016000" />
+      <workItem from="1549079532262" duration="7928000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Read Me File">
       <created>1549084408293</created>
@@ -390,7 +416,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45191000" />
+    <option name="totallyTimeSpent" value="46103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -413,7 +439,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329429" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.329429" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.34699854" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.329429" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -440,7 +466,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updated Read Me File" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/lang/Runnable.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/lang/Comparable.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/util/Comparator.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Integer.java" />
@@ -784,16 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="646">
-            <caret line="38" column="108" selection-start-line="38" selection-start-column="108" selection-end-line="38" selection-end-column="108" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/data/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -830,8 +845,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamMinMaxExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="189">
+          <caret line="71" column="64" selection-start-line="71" selection-start-column="64" selection-end-line="71" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="277">
+            <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamLimitSkipExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

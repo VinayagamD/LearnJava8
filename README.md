@@ -24,6 +24,8 @@ __Purpose of the repo is learn available methods and option in Java 8__
     - Sort
     - Min
     - Max
+    - Limit
+    - Skip
     
 __Java 8__
 
