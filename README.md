@@ -44,7 +44,16 @@ __Purpose of the repo is learn available methods and option in Java 8__
         - range
         - rangeClosed
         - count
-        - foreach    
+        - foreach 
+        - Aggregate Functions
+            - sum
+            - max
+            - min
+            - average
+            - Extra Class
+                * OptionalInt   
+                * OptionalLong   
+                * OptionalDouble  
     - Terminal Operations
     - Parallel Processing
 * 
