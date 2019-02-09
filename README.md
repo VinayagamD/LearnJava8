@@ -28,7 +28,9 @@ __Purpose of the repo is learn available methods and option in Java 8__
     - Skip
     - allMatch
     - anyMatch
-    - noneMatch 
+    - noneMatch
+    - findAny
+    - findFirst 
     
 __Java 8__
 
