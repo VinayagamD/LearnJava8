@@ -36,6 +36,18 @@ __Purpose of the repo is learn available methods and option in Java 8__
         - of
         - generate
         - iterate
+    - Numeric Streams
+        - Class to  handle primitive types
+            - IntStream
+            - LongStream
+            - DoubleStream
+        - range
+        - rangeClosed
+        - count
+        - foreach    
+    - Terminal Operations
+    - Parallel Processing
+* 
          
     
 __Java 8__
