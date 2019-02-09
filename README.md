@@ -26,6 +26,9 @@ __Purpose of the repo is learn available methods and option in Java 8__
     - Max
     - Limit
     - Skip
+    - allMatch
+    - anyMatch
+    - noneMatch 
     
 __Java 8__
 
