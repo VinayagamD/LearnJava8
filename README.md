@@ -5,7 +5,7 @@ __Purpose of the repo is learn available methods and option in Java 8__
 
 * Imperative vs Declarative Style Example
 * About lambda
-* Lamda API
+* Lambda API
     - Consumer
     - BiConsumer
     - Predicate
@@ -53,7 +53,13 @@ __Purpose of the repo is learn available methods and option in Java 8__
             - Extra Class
                 * OptionalInt   
                 * OptionalLong   
-                * OptionalDouble  
+                * OptionalDouble
+        - Boxing & Unboxing
+            - boxed
+            - mapToInt
+            - mapToLong
+            - mapToDouble
+            - mapToObj  
     - Terminal Operations
     - Parallel Processing
 * 

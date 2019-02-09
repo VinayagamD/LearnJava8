@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0582d361-b1ff-4889-be35-fa0441a2072f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/numericstreams/NumericStreamAggregateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/numericstreams/NumericStreamsBoxingUnboxing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -15,23 +15,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="296">
-                <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+              <first_editor relative-caret-position="289">
+                <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/numericstreams/NumericStreamAggregateExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="289">
               <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/numericstreams/NumericStreamsBoxingUnboxing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,8 +162,9 @@
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamOfGenerateIterateExample.java" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/NumericStreamsExample.java" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/numericstreams/NumericStreamRangesExample.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/numericstreams/NumericStreamAggregateExample.java" />
+        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/numericstreams/NumericStreamsBoxingUnboxing.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -205,7 +218,7 @@
     <property name="SearchEverywhereHistoryKey" value="predic&#9;PSI&#9;JAVA://java.util.function.Predicate&#10;bicon&#9;PSI&#9;JAVA://java.util.function.BiConsumer&#10;Consume&#9;PSI&#9;JAVA://java.util.function.Consumer&#10;Compar&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/util/Comparator.class&#10;runn&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/lang/Runnable.class&#10;Run&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Runnable.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549738537726" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549748497756" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -224,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumericStreamAggregateExample">
+  <component name="RunManager" selected="Application.NumericStreamsBoxingUnboxing">
     <configuration name="NumericStreamAggregateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.numericstreams.NumericStreamAggregateExample" />
       <module name="testjava8" />
@@ -240,6 +253,19 @@
     </configuration>
     <configuration name="NumericStreamRangesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.numericstreams.NumericStreamRangesExample" />
+      <module name="testjava8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vinaylearn.java8.numericstreams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumericStreamsBoxingUnboxing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.numericstreams.NumericStreamsBoxingUnboxing" />
       <module name="testjava8" />
       <extension name="coverage">
         <pattern>
@@ -277,33 +303,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsFindFirstAndAnyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.streams.StreamsFindFirstAndAnyExample" />
-      <module name="testjava8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vinaylearn.java8.numericstreams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.StreamsFindFirstAndAnyExample" />
       <item itemvalue="Application.StreamOfGenerateIterateExample" />
       <item itemvalue="Application.NumericStreamsExample" />
       <item itemvalue="Application.NumericStreamRangesExample" />
       <item itemvalue="Application.NumericStreamAggregateExample" />
+      <item itemvalue="Application.NumericStreamsBoxingUnboxing" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumericStreamsBoxingUnboxing" />
         <item itemvalue="Application.NumericStreamAggregateExample" />
         <item itemvalue="Application.NumericStreamRangesExample" />
         <item itemvalue="Application.NumericStreamsExample" />
         <item itemvalue="Application.StreamOfGenerateIterateExample" />
-        <item itemvalue="Application.StreamsFindFirstAndAnyExample" />
       </list>
     </recent_temporary>
   </component>
@@ -347,7 +360,7 @@
       <workItem from="1549564029509" duration="1838000" />
       <workItem from="1549571558149" duration="1130000" />
       <workItem from="1549690039644" duration="1979000" />
-      <workItem from="1549730492242" duration="5732000" />
+      <workItem from="1549730492242" duration="6324000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Read Me File">
       <created>1549084408293</created>
@@ -374,13 +387,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59318000" />
+    <option name="totallyTimeSpent" value="59910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25100672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25100672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -390,7 +403,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329429" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329429" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -426,7 +439,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="FindAny and Find First" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/funcationalinterface/PredicateAndConsumer.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/funcationalinterface/PredicateAndConsumerExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -856,23 +868,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="296">
-            <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/numericstreams/NumericStreamAggregateExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="289">
           <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/numericstreams/NumericStreamsBoxingUnboxing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="289">
+            <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
