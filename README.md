@@ -16,21 +16,27 @@ __Purpose of the repo is learn available methods and option in Java 8__
     - BiFunction
     - Supplier
 * Stream API
-    - Map
-    - Flatmap
-    - Reduce
-    - Collect
-    - Filter
-    - Sort
-    - Min
-    - Max
-    - Limit
-    - Skip
-    - allMatch
-    - anyMatch
-    - noneMatch
-    - findAny
-    - findFirst 
+    - Operation
+        - Map
+        - Flatmap
+        - Reduce
+        - Collect
+        - Filter
+        - Sort
+        - Min
+        - Max
+        - Limit
+        - Skip
+        - allMatch
+        - anyMatch
+        - noneMatch
+        - findAny
+        - findFirst
+    - Factory Methods
+        - of
+        - generate
+        - iterate
+         
     
 __Java 8__
 
