@@ -61,6 +61,7 @@ __Purpose of the repo is learn available methods and option in Java 8__
             - mapToDouble
             - mapToObj  
     - Terminal Operations
+        - joining
     - Parallel Processing
 * 
          
