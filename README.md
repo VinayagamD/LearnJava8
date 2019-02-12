@@ -71,7 +71,8 @@ __Purpose of the repo is learn available methods and option in Java 8__
         - summingDouble
         - averagingDouble
         - maxBy
-        - minBy 
+        - minBy
+        - groupingBy 
     - Parallel Processing
 
          
