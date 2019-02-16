@@ -75,6 +75,10 @@ __Purpose of the repo is learn available methods and option in Java 8__
         - groupingBy
         - partitioningBy 
     - Parallel Processing
+        - sequential vs parallel
+        - when not to use parallel stream
+            * boxed
+            
 
          
     
