@@ -2,12 +2,18 @@ package com.vinaylearn.java8.data;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.function.Supplier;
 
 public class StudentDataBase {
 
     public static Supplier<Student> studentSupplier = ()->{
-      return   new Student("Adam",2,3.6, "male", Arrays.asList("swimming", "basketball","volleyball"));
+        Bike bike = new Bike();
+        bike.setName("ABC");
+        bike.setModel("XYZ");
+      Student student = new Student("Adam",2,3.6, "male", Arrays.asList("swimming", "basketball","volleyball"));
+      student.setBike(Optional.ofNullable(bike));
+      return  student;
     };
 
     /**

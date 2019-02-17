@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0582d361-b1ff-4889-be35-fa0441a2072f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/parrallelStream/ParallelStramExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/parrallelStream/ParallelStreamBoxedExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/parrallelStream/ParallelStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/data/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/optional/OptionalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/optional/OptionalMapFlatMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/optional/OptionalOfEmptyNullableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/optional/OptionalOrElseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/optional/OptionalPresentExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vinaylearn/java8/data/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/data/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vinaylearn/java8/data/StudentDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vinaylearn/java8/data/StudentDataBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,23 +22,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="170">
-                <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
+              <first_editor relative-caret-position="182">
+                <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/parrallelStream/ParallelStreamExample.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/optional/OptionalMapFlatMapExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="155">
+              <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,10 +47,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/parrallelStream/ParallelStramExample1.java">
+        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/data/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+            <state relative-caret-position="238">
+              <caret line="92" column="37" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1629#1630#0" expanded="true" />
+                <element signature="e#1661#1662#0" expanded="true" />
+                <element signature="e#1708#1709#0" expanded="true" />
+                <element signature="e#1750#1751#0" expanded="true" />
+                <element signature="e#2067#2068#0" expanded="true" />
+                <element signature="e#2115#2116#0" expanded="true" />
+                <element signature="e#2147#2148#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/data/StudentDataBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,12 +78,53 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/parrallelStream/ParallelStreamBoxedExample.java">
+        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/data/Bike.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="206">
-              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+              <folding>
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/optional/OptionalOrElseExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/optional/OptionalPresentExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/optional/OptionalOfEmptyNullableExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <folding>
+                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsFlatMapExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="18" column="5" selection-start-line="10" selection-start-column="1" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,53 +145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsMapExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
+            <state relative-caret-position="323">
               <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/OptionalInt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/numericstreams/NumericStreamsExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/numericstreams/NumericStreamRangesExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamOfGenerateIterateExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,14 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/funcationalinterface/BiConsumerExample.java" />
-        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/funcationalinterface/PredicateExample.java" />
-        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/funcationalinterface/PredicateStudentExample.java" />
-        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/funcationalinterface/PredicateAndConsumer.java" />
-        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/funcationalinterface/PredicateAndConsumerExample.java" />
-        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/funcationalinterface/FunctionExample.java" />
-        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/funcationalinterface/FunctionExample1.java" />
-        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/funcationalinterface/FunctionStudentExample.java" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/funcationalinterface/BiFunctionExample.java" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/funcationalinterface/UnaryOperatorExample.java" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/funcationalinterface/BinaryOperatorExample.java" />
@@ -182,8 +194,6 @@
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsComparatorExample.java" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsFilterExample.java" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamReduceExample.java" />
-        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/data/StudentDataBase.java" />
-        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/data/Student.java" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamMapReduceExample.java" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamMinMaxExample.java" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamLimitSkipExample.java" />
@@ -206,7 +216,17 @@
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/parrallelStream/ParallelStreamExample.java" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/parrallelStream/ParallelStramExample1.java" />
         <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/parrallelStream/ParallelStreamBoxedExample.java" />
+        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/parrallelStream/Sum.java" />
+        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/parrallelStream/SumClient.java" />
+        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/optional/OptionalExample.java" />
+        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/optional/OptionalOfEmptyNullableExample.java" />
+        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/optional/OptionalOrElseExample.java" />
+        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/optional/OptionalPresentExample.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/data/Bike.java" />
+        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/data/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/data/StudentDataBase.java" />
+        <option value="$PROJECT_DIR$/src/com/vinaylearn/java8/optional/OptionalMapFlatMapExample.java" />
       </list>
     </option>
   </component>
@@ -248,14 +268,14 @@
               <item name="testjava8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java8" type="462c0819:PsiDirectoryNode" />
-              <item name="parrallelStream" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testjava8" type="b2602c69:ProjectViewProjectNode" />
               <item name="testjava8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java8" type="462c0819:PsiDirectoryNode" />
-              <item name="streams" type="462c0819:PsiDirectoryNode" />
+              <item name="optional" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -267,7 +287,7 @@
     <property name="SearchEverywhereHistoryKey" value="predic&#9;PSI&#9;JAVA://java.util.function.Predicate&#10;bicon&#9;PSI&#9;JAVA://java.util.function.BiConsumer&#10;Consume&#9;PSI&#9;JAVA://java.util.function.Consumer&#10;Compar&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/util/Comparator.class&#10;runn&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/lang/Runnable.class&#10;Run&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Runnable.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550330127805" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550415123297" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -286,13 +306,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SumClient">
-    <configuration name="ParallelStramExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.parrallelStream.ParallelStramExample1" />
+  <component name="RunManager" selected="Application.OptionalMapFlatMapExample">
+    <configuration name="OptionalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.optional.OptionalExample" />
       <module name="testjava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vinaylearn.java8.parrallelStream.*" />
+          <option name="PATTERN" value="com.vinaylearn.java8.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,12 +320,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelStreamBoxedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.parrallelStream.ParallelStreamBoxedExample" />
+    <configuration name="OptionalMapFlatMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.optional.OptionalMapFlatMapExample" />
       <module name="testjava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vinaylearn.java8.parrallelStream.*" />
+          <option name="PATTERN" value="com.vinaylearn.java8.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,12 +333,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.parrallelStream.ParallelStreamExample" />
+    <configuration name="OptionalOfEmptyNullableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.optional.OptionalOfEmptyNullableExample" />
       <module name="testjava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vinaylearn.java8.parrallelStream.*" />
+          <option name="PATTERN" value="com.vinaylearn.java8.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,12 +346,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsPartitioningByExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.streams_terminal.StreamsPartitioningByExample" />
+    <configuration name="OptionalOrElseExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.optional.OptionalOrElseExample" />
       <module name="testjava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vinaylearn.java8.streams_terminal.*" />
+          <option name="PATTERN" value="com.vinaylearn.java8.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,12 +359,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.parrallelStream.SumClient" />
+    <configuration name="OptionalPresentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vinaylearn.java8.optional.OptionalPresentExample" />
       <module name="testjava8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vinaylearn.java8.parrallelStream.*" />
+          <option name="PATTERN" value="com.vinaylearn.java8.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,19 +373,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StreamsPartitioningByExample" />
-      <item itemvalue="Application.ParallelStreamExample" />
-      <item itemvalue="Application.ParallelStramExample1" />
-      <item itemvalue="Application.ParallelStreamBoxedExample" />
-      <item itemvalue="Application.SumClient" />
+      <item itemvalue="Application.OptionalExample" />
+      <item itemvalue="Application.OptionalOfEmptyNullableExample" />
+      <item itemvalue="Application.OptionalOrElseExample" />
+      <item itemvalue="Application.OptionalPresentExample" />
+      <item itemvalue="Application.OptionalMapFlatMapExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SumClient" />
-        <item itemvalue="Application.ParallelStreamBoxedExample" />
-        <item itemvalue="Application.ParallelStramExample1" />
-        <item itemvalue="Application.ParallelStreamExample" />
-        <item itemvalue="Application.StreamsPartitioningByExample" />
+        <item itemvalue="Application.OptionalMapFlatMapExample" />
+        <item itemvalue="Application.OptionalPresentExample" />
+        <item itemvalue="Application.OptionalOrElseExample" />
+        <item itemvalue="Application.OptionalOfEmptyNullableExample" />
+        <item itemvalue="Application.OptionalExample" />
       </list>
     </recent_temporary>
   </component>
@@ -423,7 +443,8 @@
       <workItem from="1550168176422" duration="1472000" />
       <workItem from="1550175252445" duration="821000" />
       <workItem from="1550251919224" duration="2954000" />
-      <workItem from="1550324973657" duration="2547000" />
+      <workItem from="1550324973657" duration="4256000" />
+      <workItem from="1550389851774" duration="6183000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Read Me File">
       <created>1549084408293</created>
@@ -464,13 +485,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79720000" />
+    <option name="totallyTimeSpent" value="87612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2758389" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2818792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -480,7 +501,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329429" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329429" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -517,91 +538,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="GroupingBy" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/funcationalinterface/FunctionStudentExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/funcationalinterface/BiFunctionExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="104" selection-start-line="24" selection-start-column="104" selection-end-line="24" selection-end-column="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/function/UnaryOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/funcationalinterface/UnaryOperatorExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding>
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/funcationalinterface/BinaryOperatorExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/methodreference/FunctionMethodReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/methodreference/ConsumerMethodReferenceExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/methodreference/RefactorMethodReferenceExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/constructorreference/ConstructorReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/lamdas/LambdaVariable1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -704,34 +640,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/data/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1629#1630#0" expanded="true" />
-            <element signature="e#1661#1662#0" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
-            <element signature="e#1750#1751#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/funcationalinterface/SupplierExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/data/StudentDataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" column="125" selection-start-line="32" selection-start-column="125" selection-end-line="32" selection-end-column="125" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -946,29 +858,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsMapExample.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/optional/OptionalExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        <state relative-caret-position="255">
+          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsFlatMapExample.java">
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/parrallelStream/Sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/parrallelStream/SumClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/parrallelStream/ParallelStramExample1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
+        <state relative-caret-position="612">
           <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -978,7 +902,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/parrallelStream/ParallelStreamBoxedExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
+        <state relative-caret-position="374">
           <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -986,13 +910,126 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsFlatMapExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="5" selection-start-line="10" selection-start-column="1" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/streams/StreamsMapExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="82" column="33" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+          <folding>
+            <element signature="e#3486#3487#0" expanded="true" />
+            <element signature="e#3544#3545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/optional/OptionalOfEmptyNullableExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/optional/OptionalOrElseExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/optional/OptionalPresentExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="170">
-            <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
+          <first_editor relative-caret-position="182">
+            <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/data/Bike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/data/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="92" column="37" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1661#1662#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#1750#1751#0" expanded="true" />
+            <element signature="e#2067#2068#0" expanded="true" />
+            <element signature="e#2115#2116#0" expanded="true" />
+            <element signature="e#2147#2148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/data/StudentDataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vinaylearn/java8/optional/OptionalMapFlatMapExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

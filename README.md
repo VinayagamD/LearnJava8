@@ -78,7 +78,18 @@ __Purpose of the repo is learn available methods and option in Java 8__
         - sequential vs parallel
         - when not to use parallel stream
             * boxed
-            
+* Optional
+    - isPresent
+    - get
+    - ofNullable
+    - empty
+    - orElse
+    - orElseGet
+    - orElseThrow
+    - ifPresent
+    - map
+    - flatMap
+    - filter
 
          
     
