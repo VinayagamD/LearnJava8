@@ -90,7 +90,13 @@ __Purpose of the repo is learn available methods and option in Java 8__
     - map
     - flatMap
     - filter
-
+* Default & Static Method
+    - Interface
+        - Default Method (default)
+        - Static Method
+        - Multiple Inheritance
+        - Resolving Multiple Inheritance Issue
+    - Abstract vs Interface
          
     
 __Java 8__
