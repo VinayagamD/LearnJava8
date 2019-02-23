@@ -97,7 +97,45 @@ __Purpose of the repo is learn available methods and option in Java 8__
         - Multiple Inheritance
         - Resolving Multiple Inheritance Issue
     - Abstract vs Interface
-         
+* Date & Time Libraries  [_Joda DateTime Insipiration_] : https://docs.oracle.com/javase/8/docs/api/java/time/package-summary.html
+    - LocalDate
+        - Creation
+            - now
+            - of
+            - ChronoField
+            - ChronoUnit
+            - TemporalAdjusters
+        - Accessing
+            - getMonth
+            - getMonthValue
+            - getYear
+            - getDayOfMonth
+            - getDayOfYear
+        - Modifying
+            - plusDays
+            - plusMonths
+            - plusYears
+            - minusDays
+            - minusMonths
+            - minusYears
+            - with
+        - Validation   
+            - isEqual
+            - isBefore
+            - isAfter
+            - isSupported
+            - isLeapYear
+    - LocalTime
+        - **All functionality same as LocalDate except date related**
+        - Accessing
+            - getHour
+            - getMinute
+            - getNanoOfSecond
+            - toSecondOfDay -> represents time in seconds
+        - Modifying
+             - minusHours
+    - LocalDateTime
+    
     
 __Java 8__
 
