@@ -135,6 +135,10 @@ __Purpose of the repo is learn available methods and option in Java 8__
         - Modifying
              - minusHours
     - LocalDateTime
+        - **All functionality same as LocalDate and LocalTime**
+      
+    - Period -> Only comaptible with LocalDate
+
     
     
 __Java 8__
