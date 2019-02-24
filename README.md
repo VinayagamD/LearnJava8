@@ -5,7 +5,7 @@ __Purpose of the repo is learn available methods and option in Java 8__
 
 * Imperative vs Declarative Style Example
 * About lambda
-* Lambda API
+* Lambda API : https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html
     - Consumer
     - BiConsumer
     - Predicate
@@ -15,7 +15,7 @@ __Purpose of the repo is learn available methods and option in Java 8__
         - Max
     - BiFunction
     - Supplier
-* Stream API
+* Stream API : https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html
     - Operation
         - Map
         - Flatmap
@@ -78,7 +78,7 @@ __Purpose of the repo is learn available methods and option in Java 8__
         - sequential vs parallel
         - when not to use parallel stream
             * boxed
-* Optional
+* Optional : https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html
     - isPresent
     - get
     - ofNullable
