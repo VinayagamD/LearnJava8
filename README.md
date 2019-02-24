@@ -139,7 +139,15 @@ __Purpose of the repo is learn available methods and option in Java 8__
       
     - Period -> Only compatible with LocalDate & LocalDateTime
     - Duration -> Only compatible with LocalTime & LocalDateTime
-
+    - Instant
+        - now
+        - getEpochSeconds
+        - ofEpochSeconds
+    - ZonedDateTime
+    - ZoneId
+    - ZoneOffset
+    - Clock
+    - DateTimeFormatter
     
     
 __Java 8__
