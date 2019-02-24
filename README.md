@@ -137,7 +137,8 @@ __Purpose of the repo is learn available methods and option in Java 8__
     - LocalDateTime
         - **All functionality same as LocalDate and LocalTime**
       
-    - Period -> Only comaptible with LocalDate
+    - Period -> Only compatible with LocalDate & LocalDateTime
+    - Duration -> Only compatible with LocalTime & LocalDateTime
 
     
     
