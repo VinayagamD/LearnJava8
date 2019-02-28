@@ -1,5 +1,13 @@
-# testjava8
+# LearnJava8
 Learning Java8 Features And Implementation
+
+### Environment
+
+**SDK** <br>
+_Java 8_ : https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html <br>
+
+**IDE** <br>
+_Intellij Idea Community Edition_: https://www.jetbrains.com/idea/download/
 
 __Purpose of the repo is learn available methods and option in Java 8__
 
